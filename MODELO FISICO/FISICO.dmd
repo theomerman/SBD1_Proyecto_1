@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FISICO" id="12F24F32-1463-71E7-9381-ACA5C747D1C6" version="3.5">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 06:16:02 UTC</createdTime>
+<ownerDesignName>FISICO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>12F24F32-1463-71E7-9381-ACA5C747D1C6</designId>
+</OSDM_Design>
