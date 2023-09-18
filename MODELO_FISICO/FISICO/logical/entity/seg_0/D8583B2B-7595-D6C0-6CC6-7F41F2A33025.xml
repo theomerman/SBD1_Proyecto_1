@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8583B2B-7595-D6C0-6CC6-7F41F2A33025" name="DETALLE_VOTO">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 06:32:12 UTC</createdTime>
+<ownerDesignName>FISICO</ownerDesignName>
+<engineerTo>
+<item key="712AAF98-A190-676B-CB50-0E404FCBCBAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_voto" id="2F250501-17DB-B103-F413-B90893112AB5">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:53:54 UTC</createdTime>
+<ownerDesignName>FISICO</ownerDesignName>
+<engineerTo>
+<item key="712AAF98-A190-676B-CB50-0E404FCBCBAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voto" id="AC9F8CC6-740F-092A-8870-2D3513087D99">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:50:52 UTC</createdTime>
+<generatorID>A39BF60F-53B1-1F49-0551-2EAF6AA10225</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<engineerTo>
+<item key="712AAF98-A190-676B-CB50-0E404FCBCBAE" value="true"/>
+</engineerTo>
+<referedAttribute>4E19284B-145B-37EE-DDD4-451D982D27DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_candidato" id="5E3C8831-A392-07E5-CA59-DE217C192D6B">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:51:12 UTC</createdTime>
+<generatorID>C5E4916D-7FBE-184C-64F6-691ECD94578B</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<engineerTo>
+<item key="712AAF98-A190-676B-CB50-0E404FCBCBAE" value="true"/>
+</engineerTo>
+<referedAttribute>A03D370D-AA05-2E6C-9005-49EA931A1A19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="326DAB01-3110-9CA8-88BC-0E5FFCD6C5AC" name="DETALLE_VOTO PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:54:19 UTC</createdTime>
+<ownerDesignName>FISICO</ownerDesignName>
+<engineerTo>
+<item key="712AAF98-A190-676B-CB50-0E404FCBCBAE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F250501-17DB-B103-F413-B90893112AB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

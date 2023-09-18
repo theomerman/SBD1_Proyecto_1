@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="044C0D5B-0577-EC13-6F5E-E9918AB45731" name="PARTIDO">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>4E3F8CA2-34FD-155D-5CE9-AD7BB50F045B</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_partido" id="1B3ACE26-BD0D-32C8-5662-E35D2E2124DF">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>4FE498B7-7200-5BEA-CB12-698311A3FB85</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_partido" id="44DCB8E6-DCFF-2FF1-51E0-D763FE409179">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>A1B8D1EF-C681-2B50-CAE4-7F62879ACC9F</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="siglas" id="4019BDF9-1D73-2C54-BF4B-4CE645551575">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>ACFFD9CA-9598-43D1-943B-10BA3351538F</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fundacion" id="A7FF8DA1-8E80-A31B-A112-D15C8A79FC24">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>90082D5D-2353-258B-BDC5-6C1157BA09B4</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="283FADE2-28A3-0DCA-CBE5-05621EDECFE0" name="PARTIDO_PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>67C06A6A-4946-92BA-120F-44AA3108F4EC</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3ACE26-BD0D-32C8-5662-E35D2E2124DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

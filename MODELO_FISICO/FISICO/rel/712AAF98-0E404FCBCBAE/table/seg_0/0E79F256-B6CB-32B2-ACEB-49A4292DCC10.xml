@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E79F256-B6CB-32B2-ACEB-49A4292DCC10" name="VOTO">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>EFD0CAFC-1B03-5386-2DE4-41C6CAB98E07</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_voto" id="27CE0761-0FCB-92CD-4773-CA42315B1B71">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>4E19284B-145B-37EE-DDD4-451D982D27DD</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_hora" id="4792B63D-B93F-74BB-2B20-05050E5237A7">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>AB0403FA-A460-983D-E031-40AB4F8A2138</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDADANO_dpi" id="E781DFF3-3359-812A-FA8F-5BF5825C5EE8">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>DC720D9F-447A-6707-BB0B-5A2356024808</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51EE4556-BCF6-F61C-7996-1C6BC1193BD8" referredColumn="BA0137F1-E84C-B373-0C2B-5655A7E405FD"/>
+</associations>
+</Column>
+<Column name="MESA_id_mesa" id="839E9A96-0271-F7EC-33C0-8A3D2A1B4C0B">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>6031E7B4-5E85-6667-B4F5-A3F6C517F957</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BE64F15-54C4-93DA-C103-ED7CCD8241B0" referredColumn="A2063F50-FAE2-3F57-4CA1-A0E0D84769D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C04F84FE-3E81-4FDE-83F3-B6893B54928A" name="VOTO_PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>AABDA3F3-4D76-9E79-44A6-911D16A899A0</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CE0761-0FCB-92CD-4773-CA42315B1B71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64AC2F10-BE87-2DE3-F45C-7983A363CBA6" name="VOTO_CIUDADANO_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>B4D86D46-4427-FFCB-AA49-20A53C6B0AC3</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E781DFF3-3359-812A-FA8F-5BF5825C5EE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="409EBB94-4C85-D6C5-DFA8-F6A01713957F" name="VOTO_MESA_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>AE572718-9C38-8145-97B6-4BC2666107DD</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="839E9A96-0271-F7EC-33C0-8A3D2A1B4C0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

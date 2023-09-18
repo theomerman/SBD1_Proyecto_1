@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="200B0EF1-A412-92D0-DBDD-A7E2133BA023" name="CIUDADANO">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>925E62BA-3894-7C51-DC1F-5855245B5289</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dpi" id="BA0137F1-E84C-B373-0C2B-5655A7E405FD">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>69D15AED-ACE0-27EF-3665-9E27AC216606</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="0E2BAC03-79BC-DA7A-F683-1D4B0E91D4C5">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>90692820-0478-3873-4A76-272777226D00</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="0371D0BA-1F85-51AA-E839-4D8163BEE9B6">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>B6AC191A-BB69-4AA0-CFB6-5AB5723A41BB</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="FF9597D9-3AB1-48CE-D5D3-551D9D274447">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>C6B5A729-C83B-21FF-3948-AEAE7CF09BC4</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="A9EABE96-B5E5-639F-E4BD-4A40E2BC9AD9">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>BEF71CB9-DC85-A9EC-EF8A-DEA0781CC931</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="B974EC18-3C39-4720-D6E3-A5C5B16588DA">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>28300DE0-FE1E-B406-633B-D866947261F1</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genero" id="AE467FF4-4472-21D8-87CB-934A1183671A">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>A7263E11-BB79-B563-8785-0F21AFED5A5D</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC3D7FCE-756C-7CBC-6144-FAE15FE28092" name="CIUDADANO_PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>A9F4B7BE-268A-672F-A8DC-460787AF1D22</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA0137F1-E84C-B373-0C2B-5655A7E405FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

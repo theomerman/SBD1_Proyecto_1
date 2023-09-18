@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DF6F476-C957-53CB-B45B-DDDD81EDBB31" name="DETALLE_VOTO">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>D8583B2B-7595-D6C0-6CC6-7F41F2A33025</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle_voto" id="7D0ED632-44F7-2586-1D16-30A8C0B16D13">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>2F250501-17DB-B103-F413-B90893112AB5</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOTO_id_voto" id="729C57A7-FCCF-EF67-590B-63435A228E5C">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>AC9F8CC6-740F-092A-8870-2D3513087D99</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8E50FCB-A3B5-3EF7-6381-F546B8B5F438" referredColumn="27CE0761-0FCB-92CD-4773-CA42315B1B71"/>
+</associations>
+</Column>
+<Column name="CANDIDATO_id_candidato" id="E543E08B-3C60-9B69-3B56-7AAE523A0529">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>5E3C8831-A392-07E5-CA59-DE217C192D6B</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9402EE87-1835-EF07-17FF-B7B54AA15CA8" referredColumn="371C3FA2-5E95-BDFD-FD3B-7B4493E82771"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE456C33-61D6-D2EE-4B69-69C885D0C29B" name="DETALLE_VOTO_PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>326DAB01-3110-9CA8-88BC-0E5FFCD6C5AC</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D0ED632-44F7-2586-1D16-30A8C0B16D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5C71E98-CAFF-E5CD-A862-8235FC344817" name="DETALLE_VOTO_CANDIDATO_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>C5E4916D-7FBE-184C-64F6-691ECD94578B</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E543E08B-3C60-9B69-3B56-7AAE523A0529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF01AD71-71AB-C101-79CB-D35408923E75" name="DETALLE_VOTO_VOTO_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>A39BF60F-53B1-1F49-0551-2EAF6AA10225</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="729C57A7-FCCF-EF67-590B-63435A228E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

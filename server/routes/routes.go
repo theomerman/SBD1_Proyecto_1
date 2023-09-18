@@ -7,6 +7,7 @@ import (
 
 func SetupRoutes(r *mux.Router) {
 	// Define your API routes
-	r.HandleFunc("/", createModel).Methods("GET")
+	r.HandleFunc("/crearmodelo", createModel).Methods("GET")
 	r.HandleFunc("/eliminarmodelo", deleteModel).Methods("GET")
+	r.HandleFunc("/cargartabtemp", loadDB).Methods("GET")
 }

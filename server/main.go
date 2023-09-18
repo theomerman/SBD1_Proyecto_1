@@ -2,13 +2,13 @@ package main
 
 import (
 	"net/http"
-
-	"server/routes" // Import package
-
 	"server/db"
+	"server/routes"
 
 	"github.com/gorilla/mux"
 )
+
+// Import package
 
 func main() {
 	r := mux.NewRouter()
@@ -20,4 +20,5 @@ func main() {
 
 	http.Handle("/", r)
 	http.ListenAndServe(":8080", nil)
+
 }

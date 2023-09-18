@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1945768D-DDDB-3E06-0BA7-9F91193BB2F0" name="MESA">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>BABF2A48-30E0-3524-C399-F7995D926FCD</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mesa" id="A2063F50-FAE2-3F57-4CA1-A0E0D84769D7">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>5A0735A3-4A5F-28FB-0D4E-7FE289FBB794</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_id_departamento" id="0E08B3E3-E17C-66DF-D716-49323011D10E">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>000AFB1B-EF08-F022-2F25-43E0920D4CD5</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C207D809-A0D0-EA97-30BD-3F782B3A717E" referredColumn="126ADEFA-6930-E7B0-781B-5B9EE38E94FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9350A00E-ED74-E9AA-70F8-9C8906512C09" name="MESA_PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>DAAC0E75-0D2E-7591-954F-DC4361F66B5E</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2063F50-FAE2-3F57-4CA1-A0E0D84769D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5E720B7-B17E-C45F-EBF0-E1A26654B4CE" name="MESA_DEPARTAMENTO_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>5AFAADE2-BADC-6A32-771C-3FD22CCADF2C</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E08B3E3-E17C-66DF-D716-49323011D10E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

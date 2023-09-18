@@ -46,7 +46,7 @@ var QueryVector = []string{
 	)`,
 	`CREATE TABLE IF NOT EXISTS sistemadevotos.VOTO(
 		id_voto INT AUTO_INCREMENT NOT NULL,
-		fecha_hora DATE NOT NULL,
+		fecha_hora DATETIME NOT NULL,
 		CIUDADANO_dpi VARCHAR(13) NOT NULL,
 		MESA_id_mesa INT NOT NULL,
 		PRIMARY KEY (id_voto),

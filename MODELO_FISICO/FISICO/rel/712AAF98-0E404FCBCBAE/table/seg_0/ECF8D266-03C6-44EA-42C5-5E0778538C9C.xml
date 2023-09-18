@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECF8D266-03C6-44EA-42C5-5E0778538C9C" name="CANDIDATO">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>4480A8C6-E9BA-C147-D83F-6704981C6F8E</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_candidato" id="371C3FA2-5E95-BDFD-FD3B-7B4493E82771">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>A03D370D-AA05-2E6C-9005-49EA931A1A19</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="1CFC0DF0-E628-5E8D-F7F2-CD6278AAFC9C">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>030A7FC4-0566-9881-AA84-E39649234EDB</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="45C802E5-5365-7FD9-054A-2882D5854D20">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>27E33041-7BD4-C884-65C7-91F3CC7DE15B</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTIDO_id_partido" id="0025E3FA-9C89-9DB7-4C31-A0B0A86E98AA">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>B80B9CE8-2217-3054-134D-E461EF6ACBA2</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC2ED27C-E5BA-88F1-80B0-38233D614EEC" referredColumn="1B3ACE26-BD0D-32C8-5662-E35D2E2124DF"/>
+</associations>
+</Column>
+<Column name="CARGO_id_cargo" id="1EE27EAA-8938-157D-7D1E-128E4FBC20D8">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>4FC16826-618B-0DD4-FFE4-7F5FE0B1CE38</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D01B20C-17D5-0659-FCE1-ADBA8638DDED" referredColumn="9612F128-DAE7-2644-2372-2EAD2D9795FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75DFC92B-6209-66CE-05EE-786BCD1D97FC" name="CANDIDATO_PK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>D347F620-D1D6-183F-F642-B0BB5A4767E5</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="371C3FA2-5E95-BDFD-FD3B-7B4493E82771"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3B4AACE-3AC1-3EF6-95C3-F744A30ED1EB" name="CANDIDATO_CARGO_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>801BBEEC-6258-1B58-0A5B-53B163102B61</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EE27EAA-8938-157D-7D1E-128E4FBC20D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76BDED6B-1D55-A5FB-9C41-6363160044CA" name="CANDIDATO_PARTIDO_FK">
+<createdBy>Theomerman</createdBy>
+<createdTime>2023-09-13 07:56:36 UTC</createdTime>
+<generatorID>7CA998BE-005B-73C6-5F2B-92EDE30F360D</generatorID>
+<ownerDesignName>FISICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0025E3FA-9C89-9DB7-4C31-A0B0A86E98AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
