@@ -11,6 +11,7 @@ Primero debemos identificar las entidades clave que se utilizaran para la creaci
 
 ### Creacion del modelo Lógico
 
+Para el modelo lógico se utilizó data modeler de oracle 
 ![Alt text](MODELO_FISICO/logical.png)
 
 ### Creacion del modelo Relacional
