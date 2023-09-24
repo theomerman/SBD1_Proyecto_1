@@ -1,0 +1,84 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <button type="button" class="btn btn-success" style="margin: 25px;" (click)="fetchData('crearmodelo')">Crear Modelo</button>
+
+        </div>
+        <div class="col-sm">
+            <button type="button" class="btn btn-warning" style="margin: 25px;" (click)="fetchData('cargartabtemp')">Cargar Datos</button>
+
+        </div>
+        <div class="col-sm">
+            <button type="button" class="btn btn-danger" style="margin: 25px;" (click)="fetchData('eliminarmodelo')">Eliminar Modelo</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta1')">Consulta 1</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta2')">Consulta 2</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta3')">Consulta 3</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta4')">Consulta 4</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta5')">Consulta 5</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta6')">Consulta 6</div>
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta7')">Consulta 7</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta8')">Consulta 8</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta9')">Consulta 9</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta10')">Consulta 10</div>
+        </div>
+        <div class="col-sm">
+            <div type="button" class="btn btn-info" style="margin: 25px;" (click)="fetchData('consulta11')">Consulta 11</div>
+        </div>
+        <div class="col-sm">
+           
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div *ngIf="fetchedData">
+  <h2>Datos en JSON:</h2>
+  <pre>{{ fetchedData | json }}</pre>
+</div> -->
+
+<!-- <mat-card class="json-card">
+    <mat-card-header>
+      <mat-card-title>Datos en JSON:</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <pre>{{ fetchedData | json }}</pre>
+    </mat-card-content>
+  </mat-card> -->
+
+  <div class="json-box">
+    <pre>{{ fetchedData | json }}</pre>
+  </div>
+  

@@ -2,15 +2,24 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { BotonesComponent } from './botones/botones.component';
+import { ApiService } from './api.service';
+import { HttpClientModule } from '@angular/common/http';
+import { MatCardModule } from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BotonesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    MatCardModule,
+    
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ApiService],
+  bootstrap: [AppComponent, BotonesComponent]
 })
 export class AppModule { }

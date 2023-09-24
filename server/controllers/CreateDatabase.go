@@ -40,28 +40,3 @@ func CreateTables() {
 	// fmt.Println("Table 'SistemaDeVotos' created successfully.")
 
 }
-
-func ExecuteQuery(query string) string {
-	// Execute the "SHOW DATABASES" query
-	rows, err := db.Db.Query(query)
-	if err != nil {
-		panic(err.Error())
-	}
-
-	// Iterate through the result set and print database names
-	var dbName string
-	var text string
-	fmt.Println("List of databases:")
-	for rows.Next() {
-		if err := rows.Scan(&dbName); err != nil {
-			panic(err.Error())
-		}
-		text += dbName + "\n"
-	}
-
-	// Check for errors from iterating over rows
-	if err := rows.Err(); err != nil {
-		panic(err.Error())
-	}
-	return text
-}
